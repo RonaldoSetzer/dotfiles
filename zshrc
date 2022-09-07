@@ -4,6 +4,9 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 export VISUAL="nvim"
 export EDITOR="nvim"
 
+# SYNTAX HIGHLIGHT - man pages
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # ALIAS
 alias zs="source ~/.zshrc"
 alias ll="ls -lAFh"
