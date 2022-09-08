@@ -14,6 +14,8 @@ brew "boost"
 brew "glib"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Modern replacement for 'ls'
+brew "exa"
 # Collection of reusable C++ library artifacts developed at Facebook
 brew "folly"
 # C++14 implementation of the TLS-1.3 standard
