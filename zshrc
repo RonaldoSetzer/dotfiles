@@ -9,6 +9,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # ALIAS
 alias zs="source ~/.zshrc"
+alias bbd="brew bundle dump --force --describe"
 alias mkdirs="mkdir -p"
 alias ls="ls -lAFh"
 alias lf="exa -a --icons"
