@@ -9,11 +9,13 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # ALIAS
 alias zs="source ~/.zshrc"
+alias mkdirs="mkdir -p"
 alias ls="ls -lAFh"
 alias lf="exa -a --icons"
 alias ll="exa -a --long --git --icons --no-user --header"
-alias lt="exa --tree --git --icons --level=1 --git-ignore"
+alias lt1="exa --tree --git --icons --level=1 --git-ignore"
 alias lt2="exa --tree --git --icons --level=2 --git-ignore"
+alias lt3="exa --tree --git --icons --level=3 --git-ignore"
 
 # CUSTOMIZE PROMPT
 PROMPT="%B%F{green}%1~
