@@ -14,3 +14,5 @@ brew "neovim"
 brew "tmux"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Web browser
+cask "google-chrome"
