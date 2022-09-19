@@ -23,7 +23,3 @@ PROMPT="%B%F{green}%1~
 %F{cyan}$%b%F{white} "
 RPROMPT="%B%F{cyan}@%T%b"
 
-# SCHEME
-TERM=xterm-256color-italic
-
-
