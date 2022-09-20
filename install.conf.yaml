@@ -13,6 +13,9 @@
     ~/.config/alacritty:
       create: true
       path: config/alacritty
+    ~/.config/nvim:
+      create: true
+      path: ../neovim-setup
 
 - create:
     - ~/Workspace
