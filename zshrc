@@ -1,6 +1,10 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="/usr/local/opt/libpq/bin:$PATH"
+# Add Locations to $path Array
+typeset -U path
 
+path=(
+  "$N_PREFIX/bin"
+  $path
+)
 export VISUAL="nvim"
 export EDITOR="nvim"
 

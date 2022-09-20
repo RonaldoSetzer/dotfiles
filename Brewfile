@@ -8,6 +8,8 @@ tap "homebrew/services"
 brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
+# Node version management
+brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Terminal multiplexer
