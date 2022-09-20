@@ -22,10 +22,14 @@
 
 - shell:
   - 
-    command: ./setup_fonts.zsh
+    command: ./setup_package_manager.zsh
     stdout: true
     stderr: true
   - 
-    command: ./setup_homebrew.zsh
+    command: ./setup_development_environment.zsh
+    stdout: true
+    stderr: true
+  - 
+    command: ./install_packages.zsh
     stdout: true
     stderr: true
