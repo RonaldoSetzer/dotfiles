@@ -16,6 +16,8 @@ brew "neovim"
 brew "tmux"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Web browser
 cask "google-chrome"
 # Knowledge base that works on top of a local folder of plain text Markdown files
