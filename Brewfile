@@ -18,3 +18,5 @@ brew "tmux"
 cask "alacritty"
 # Web browser
 cask "google-chrome"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
