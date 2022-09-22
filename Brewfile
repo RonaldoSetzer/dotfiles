@@ -18,9 +18,13 @@ brew "neovim"
 brew "tmux"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Web browser
 cask "google-chrome"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Desktop client for WhatsApp
+cask "whatsapp"
