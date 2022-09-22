@@ -4,6 +4,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+# Shell plugin manager
+brew "antibody"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'

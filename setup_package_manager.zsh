@@ -23,3 +23,12 @@ else
   echo "Installing Node & NPM with n..."
   n latest
 fi
+
+echo "\n## ANTIBODY SETUP ##\n"
+
+if brew list antibody; then
+  echo "antibody exists, skipping install"
+else
+  echo "antibody doesn't exist, continuing with install"
+  brew install antibody
+fi

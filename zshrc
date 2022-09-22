@@ -1,3 +1,6 @@
+# Variables
+export DOTFILES="$HOME/Workspace/github/RonaldoSetzer/dotfiles/"
+export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 # Add Locations to $path Array
 typeset -U path
 
@@ -23,7 +26,10 @@ alias lt2="exa --tree --git --icons --level=2 --git-ignore"
 alias lt3="exa --tree --git --icons --level=3 --git-ignore"
 
 # CUSTOMIZE PROMPT
-PROMPT="%B%F{green}%1~
-%F{cyan}$%b%F{white} "
-RPROMPT="%B%F{cyan}@%T%b"
+SPACESHIP_CHAR_SYMBOL="❯"
+SPACESHIP_CHAR_SUFFIX=" "
+
+# SETUP ZSH PLUGINS
+source <(antibody init)
+antibody bundle < "$DOTFILES/zsh_plugins"
 
