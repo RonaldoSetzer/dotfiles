@@ -1,6 +1,7 @@
 # Variables
 export DOTFILES="$HOME/Workspace/github/RonaldoSetzer/dotfiles/"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
+export GOPATH="$HOME/Workspace/go"
 # Add Locations to $path Array
 typeset -U path
 

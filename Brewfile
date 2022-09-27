@@ -10,6 +10,8 @@ brew "antibody"
 brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Node version management
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility

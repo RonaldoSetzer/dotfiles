@@ -2,7 +2,7 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.zshrc:
@@ -19,18 +19,18 @@
       path: ../neovim-setup
 
 - create:
-    - ~/Workspace
+    - ~/Workspace/github/
+    - ~/Workspace/go/bin/
+    - ~/Workspace/go/src/
+    - ~/Workspace/go/pkg/
 
 - shell:
-  - 
-    command: ./setup_package_manager.zsh
-    stdout: true
-    stderr: true
-  - 
-    command: ./setup_development_environment.zsh
-    stdout: true
-    stderr: true
-  - 
-    command: ./install_packages.zsh
-    stdout: true
-    stderr: true
+    - command: ./setup_package_manager.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_development_environment.zsh
+      stdout: true
+      stderr: true
+    - command: ./install_packages.zsh
+      stdout: true
+      stderr: true
