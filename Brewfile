@@ -18,6 +18,8 @@ brew "n"
 brew "neovim"
 # Terminal multiplexer
 brew "tmux"
+# Tracks most-used directories to make cd smarter
+brew "z"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Voice and text chat software

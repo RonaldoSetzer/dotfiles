@@ -34,3 +34,6 @@ SPACESHIP_CHAR_SUFFIX=" "
 source <(antibody init)
 antibody bundle < "$DOTFILES/zsh_plugins"
 
+# SETUP Z
+source /usr/local/etc/profile.d/z.sh
+
