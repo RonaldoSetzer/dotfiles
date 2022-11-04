@@ -38,3 +38,5 @@ cask "obsidian"
 cask "vlc"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"
