@@ -8,10 +8,14 @@ tap "homebrew/services"
 brew "antibody"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Cross-platform make
+brew "cmake"
 # Modern replacement for 'ls'
 brew "exa"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Package manager for the Lua programming language
+brew "luarocks"
 # Node version management
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
