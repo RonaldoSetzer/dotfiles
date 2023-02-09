@@ -8,6 +8,8 @@ tap "homebrew/services"
 brew "antibody"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Emacs dependency management
+brew "cask"
 # Cross-platform make
 brew "cmake"
 # Modern replacement for 'ls'
