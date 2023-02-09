@@ -14,6 +14,8 @@ brew "cask"
 brew "cmake"
 # Modern replacement for 'ls'
 brew "exa"
+# GitHub command-line tool
+brew "gh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Package manager for the Lua programming language
