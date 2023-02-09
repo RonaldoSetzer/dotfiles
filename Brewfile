@@ -34,6 +34,8 @@ cask "docker"
 cask "google-chrome"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Video game digital distribution service
+cask "steam"
 # Multimedia player
 cask "vlc"
 # Desktop client for WhatsApp
