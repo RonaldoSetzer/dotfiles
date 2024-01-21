@@ -1,8 +1,6 @@
 tap "aws/tap"
 tap "borkdude/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 # Shell plugin manager
 brew "antibody"
