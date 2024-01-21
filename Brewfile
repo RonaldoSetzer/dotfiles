@@ -16,12 +16,16 @@ brew "exa"
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Package manager for the Lua programming language
 brew "luarocks"
 # Node version management
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Terminal multiplexer
 brew "tmux"
 # Tracks most-used directories to make cd smarter
