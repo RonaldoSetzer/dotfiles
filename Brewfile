@@ -42,9 +42,11 @@ cask "google-chrome"
 cask "obsidian"
 # Video game digital distribution service
 cask "steam"
+# Open-source code editor
+cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Desktop client for WhatsApp
+# Native desktop client for WhatsApp
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
