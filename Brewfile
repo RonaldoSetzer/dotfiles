@@ -2,16 +2,16 @@ tap "aws/tap"
 tap "borkdude/brew"
 tap "homebrew/bundle"
 tap "homebrew/services"
-# Shell plugin manager
-brew "antibody"
+# Plugin manager for zsh, inspired by antigen and antibody
+brew "antidote"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Emacs dependency management
 brew "cask"
 # Cross-platform make
 brew "cmake"
-# Modern replacement for 'ls'
-brew "exa"
+# Modern, maintained replacement for ls
+brew "eza"
 # GitHub command-line tool
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
@@ -24,6 +24,8 @@ brew "luarocks"
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Manage multiple Node.js versions
+brew "nvm"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Terminal multiplexer
@@ -34,14 +36,6 @@ brew "z"
 cask "alacritty"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
-cask "docker"
-# Web browser
-cask "google-chrome"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
-# Video game digital distribution service
-cask "steam"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player

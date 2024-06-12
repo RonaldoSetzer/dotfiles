@@ -24,11 +24,11 @@ else
   n latest
 fi
 
-echo "\n## ANTIBODY SETUP ##\n"
+echo "\n## ANTIDOTE SETUP ##\n"
 
-if brew list antibody; then
-  echo "antibody exists, skipping install"
+if brew list antidote; then
+  echo "antidote exists, skipping install"
 else
-  echo "antibody doesn't exist, continuing with install"
-  brew install antibody
+  echo "antidote doesn't exist, continuing with install"
+  brew install antidote
 fi
