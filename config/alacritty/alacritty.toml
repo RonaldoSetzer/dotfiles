@@ -16,7 +16,7 @@
   normal = { family = "Fisa Code" }
   bold = { family = "Fisa Code", style = "Medium" }
   italic = { family = "Fisa Code", style = "Light Italic" }
-  size = 16.0
+  size = 18.0
 
   offset = { x = 0, y = 0 }
   glyph_offset = { x = 0, y = 0 }
