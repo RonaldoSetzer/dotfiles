@@ -21,6 +21,10 @@
   offset = { x = 0, y = 0 }
   glyph_offset = { x = 0, y = 0 }
 
+
+[shell]
+program = "/bin/zsh"  # Replace with your preferred shell if different
+args = ["--login", "-c", "tmux attach-session -t  || tmux new-session -s "]
   # Thin stroke font rendering (macOS only)
   # use_thin_strokes = true
 
