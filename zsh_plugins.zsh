@@ -4,6 +4,10 @@ fpath+=( /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-githu
 source /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions/zsh-completions.plugin.zsh
 fpath+=( /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting )
 source /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+fpath+=( /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-fzf-zsh-plugin )
+source /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh
+fpath+=( /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-joshskidmore-SLASH-zsh-fzf-history-search )
+source /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-joshskidmore-SLASH-zsh-fzf-history-search/zsh-fzf-history-search.plugin.zsh
 fpath+=( /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-MichaelAquilina-SLASH-zsh-you-should-use )
 source /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-MichaelAquilina-SLASH-zsh-you-should-use/you-should-use.plugin.zsh
 source /Users/omoikane/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-MichaelAquilina-SLASH-zsh-you-should-use/zsh-you-should-use.plugin.zsh

@@ -30,6 +30,11 @@ alias lt3="eza --tree --git --icons --level=3 --git-ignore"
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
 
+# FZF
+ZSH_FZF_HISTORY_SEARCH_DATES_IN_SEARCH=0
+ZSH_FZF_HISTORY_SEARCH_EVENT_NUMBERS=0
+ZSH_FZF_HISTORY_SEARCH_REMOVE_DUPLICATES=1
+
 # SETUP ZSH PLUGINS
 source $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh
 antidote bundle < "$DOTFILES/zsh_plugins" > "$DOTFILES/zsh_plugins.zsh"
