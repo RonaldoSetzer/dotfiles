@@ -12,4 +12,16 @@ cd "${BASEDIR}"
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  # macOS
+  echo "Running on macOS"
+elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  # Linux
+  echo "Running on Linux"
+  "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" linux "${@}"
+else
+  echo "Unsupported OS: ${OSTYPE}"
+  exit 1
+fi
+
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
