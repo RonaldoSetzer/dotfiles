@@ -22,7 +22,7 @@
   glyph_offset = { x = 0, y = 0 }
 
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"  # Replace with your preferred shell if different
 args = ["--login", "-c", "tmux attach-session -t  || tmux new-session -s "]
   # Thin stroke font rendering (macOS only)
@@ -78,3 +78,5 @@ args = ["--login", "-c", "tmux attach-session -t  || tmux new-session -s "
     magenta = "#e1acff"
     cyan = "#a3f7ff"
     white = "#ffffff"
+
+[terminal]
