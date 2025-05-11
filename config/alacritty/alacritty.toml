@@ -1,11 +1,10 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator
-
 [window]
   dimensions = { columns = 153, lines = 50 }
   padding = { x = 5, y = 5 }
   decorations = "buttonless"
   startup_mode = "Windowed"
   opacity = 0.9
+  blur = true
 
 [scrolling]
   history = 5000
