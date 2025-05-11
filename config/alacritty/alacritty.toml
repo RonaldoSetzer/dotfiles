@@ -56,27 +56,50 @@ args = ["--login", "-c", "tmux attach-session -t  || tmux new-session -s "
 #     white = "#ebdbb2"
 
 # Palenight
+# [colors]
+#   primary = { background = "#292d3e", foreground = "#d0d0d0" }
+#
+#   [colors.normal]
+#     black = "#292d3e"
+#     red = "#f07178"
+#     green = "#c3e88d"
+#     yellow = "#ffcb6b"
+#     blue = "#82aaff"
+#     magenta = "#c792ea"
+#     cyan = "#89ddff"
+#     white = "#d0d0d0"
+#
+#   [colors.bright]
+#     black = "#434758"
+#     red = "#ff8b92"
+#     green = "#ddffa7"
+#     yellow = "#ffe585"
+#     blue = "#9cc4ff"
+#     magenta = "#e1acff"
+#     cyan = "#a3f7ff"
+#     white = "#ffffff"
+
+# Ghostty
 [colors]
-  primary = { background = "#292d3e", foreground = "#d0d0d0" }
+  primary = { background = "#1E1F28", foreground = "#D0D0D0" }
 
-  [colors.normal]
-    black = "#292d3e"
-    red = "#f07178"
-    green = "#c3e88d"
-    yellow = "#ffcb6b"
-    blue = "#82aaff"
-    magenta = "#c792ea"
-    cyan = "#89ddff"
-    white = "#d0d0d0"
+[colors.normal]
+  black   = "#1E1F28"
+  red     = "#F07178"
+  green   = "#C3E88D"
+  yellow  = "#FFCB6B"
+  blue    = "#82AAFF"
+  magenta = "#C792EA"
+  cyan    = "#82B2AC"
+  white   = "#D0D0D0"
 
-  [colors.bright]
-    black = "#434758"
-    red = "#ff8b92"
-    green = "#ddffa7"
-    yellow = "#ffe585"
-    blue = "#9cc4ff"
-    magenta = "#e1acff"
-    cyan = "#a3f7ff"
-    white = "#ffffff"
+[colors.bright]
+  black   = "#4B4B5E"
+  red     = "#FF8B92"
+  green   = "#DDFFA7"
+  yellow  = "#FFE585"
+  blue    = "#9CC4FF"
+  magenta = "#E1ACFF"
+  cyan    = "#A3F7FF"
+  white   = "#FFFFFF"
 
-[terminal]
